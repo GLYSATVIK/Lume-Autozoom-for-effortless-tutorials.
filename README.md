@@ -219,3 +219,5 @@ ScreenArc stands on the shoulders of giants. This project would not be possible 
 ## 📜 License
 
 This project is licensed under the [GPL-3.0 License](LICENSE).
+
+<!-- Lume: Effortless tutorials & smooth autozoom -->
