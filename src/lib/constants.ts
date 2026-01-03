@@ -137,3 +137,4 @@ export const DEFAULTS = {
     },
   },
 }
+// App rebranded to Lume for clean modern screen recordings
