@@ -1,5 +1,5 @@
 {
-  "name": "screenarc",
+  "name": "lume",
   "description": "Screen recording and editing app",
   "author": "Tam Nguyen",
   "private": true,
@@ -176,3 +176,4 @@
     }
   }
 }
+
