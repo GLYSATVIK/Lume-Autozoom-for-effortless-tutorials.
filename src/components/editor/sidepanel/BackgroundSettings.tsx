@@ -364,3 +364,4 @@ export function BackgroundSettings() {
     </ControlGroup>
   )
 }
+// Ensure color picker triggers reactive preview render
