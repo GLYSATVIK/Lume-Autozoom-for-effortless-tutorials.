@@ -349,3 +349,5 @@
 
 /* Softer border radius for cards */
 :root { --card-radius-override: 0.875rem; }
+
+.collapse-content { will-change: height; }
