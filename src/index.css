@@ -346,3 +346,6 @@
 /* Primary brand palette adjustment */
 
 /* Theme accent: Forest Green preset */
+
+/* Softer border radius for cards */
+:root { --card-radius-override: 0.875rem; }
