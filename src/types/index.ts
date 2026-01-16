@@ -337,3 +337,5 @@ export type Slice<T extends object, A extends object> = (
   set: (fn: (draft: EditorState) => void) => void,
   get: () => EditorState & EditorActions,
 ) => T & A
+
+export interface VideoFilterSettings { brightness: number; contrast: number; saturation: number; blur: number; }
