@@ -190,3 +190,4 @@ export function SidePanel() {
     </div>
   )
 }
+// Tab registered: filter settings panel
