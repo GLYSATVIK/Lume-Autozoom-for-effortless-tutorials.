@@ -191,3 +191,4 @@ export function SidePanel() {
   )
 }
 // Tab registered: filter settings panel
+// Added icons.Sliders to filter tab
