@@ -539,3 +539,5 @@ export const drawScene = async (
     ctx.restore()
   }
 }
+
+// WIP: broken filter composition in render loop
