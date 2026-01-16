@@ -369,3 +369,5 @@
 [data-theme='light'] { --card: hsl(0 0% 100%); }
 
 .btn-export-ripple { position: relative; overflow: hidden; }
+
+.slider-knob:hover { outline: 2px solid var(--ring); }
