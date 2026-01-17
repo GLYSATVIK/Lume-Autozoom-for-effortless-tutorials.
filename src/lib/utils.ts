@@ -196,3 +196,5 @@ export const mapExportTimeToSourceTime = (
   // If exportTime is beyond the calculated duration (e.g., due to floating point), clamp to the end
   return sourceTime
 }
+
+export const filterToCanvasString = (f?: any) => f ? \rightness(\) contrast(\)\ : 'none';
