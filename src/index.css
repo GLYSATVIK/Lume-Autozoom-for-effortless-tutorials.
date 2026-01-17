@@ -351,3 +351,5 @@
 :root { --card-radius-override: 0.875rem; }
 
 .collapse-content { will-change: height; }
+
+.filter-slider-track { background: var(--accent); }
