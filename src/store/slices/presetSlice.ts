@@ -205,3 +205,4 @@ export const createPresetSlice: Slice<PresetState, PresetActions> = (set, get) =
     get()._persistPresets(get().presets)
   },
 })
+// Include video filter config in saved preset payload
