@@ -543,3 +543,4 @@ export const drawScene = async (
 // WIP: broken filter composition in render loop
 // Fixed: isolate filter draw call with context state save/restore
 // Applied canvas ctx filter string generation
+// Apply isolated filters avoiding webcam texture alteration
