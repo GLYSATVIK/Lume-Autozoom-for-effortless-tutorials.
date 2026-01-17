@@ -544,3 +544,4 @@ export const drawScene = async (
 // Fixed: isolate filter draw call with context state save/restore
 // Applied canvas ctx filter string generation
 // Apply isolated filters avoiding webcam texture alteration
+// Stripped diagnostic logs from render loop
