@@ -353,3 +353,5 @@
 .collapse-content { will-change: height; }
 
 .filter-slider-track { background: var(--accent); }
+
+[data-theme='light'] .card-clean { border-color: rgba(0,0,0,0.12); }
