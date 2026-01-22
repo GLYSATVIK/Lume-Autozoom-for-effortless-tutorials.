@@ -53,3 +53,4 @@ function App() {
 
 export default App
 // Toolbar theme toggle switch
+// Suppress resize animations momentarily during theme toggle
