@@ -99,3 +99,4 @@ export const createUISlice: Slice<UIState, UIActions> = (set, get) => ({
   },
 })
 // Filter slice integration
+// Persist theme mode to localStorage
