@@ -246,3 +246,4 @@ export const useTimelineInteraction = ({
     },
   }
 }
+// Snap zoom region start timestamp to nearest mouse click metadata
