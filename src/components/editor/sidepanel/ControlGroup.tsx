@@ -22,3 +22,4 @@ export const ControlGroup = ({
     <div className="pl-0">{children}</div>
   </div>
 )
+// Added descriptive tooltips to control groups
