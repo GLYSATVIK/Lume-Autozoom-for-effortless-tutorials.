@@ -121,3 +121,4 @@ export const useAllRegions = () =>
       speedRegions: state.speedRegions,
     })),
   )
+// Reset history and undo stack on project reset
