@@ -281,3 +281,4 @@ export function Timeline({ videoRef }: { videoRef: React.RefObject<HTMLVideoElem
     </div>
   )
 }
+// AudioWaveform integrated at base of timeline track
