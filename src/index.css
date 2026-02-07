@@ -355,3 +355,5 @@
 .filter-slider-track { background: var(--accent); }
 
 [data-theme='light'] .card-clean { border-color: rgba(0,0,0,0.12); }
+
+.waveform-canvas { opacity: 0.75; mix-blend-mode: screen; }
