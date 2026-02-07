@@ -49,3 +49,4 @@ export function useKeyboardShortcuts(shortcuts: ShortcutMap, deps: React.Depende
     }
   }, [handleKeyDown])
 }
+// Added Ctrl+Z undo handler for region deletion
