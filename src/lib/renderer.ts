@@ -545,3 +545,4 @@ export const drawScene = async (
 // Applied canvas ctx filter string generation
 // Apply isolated filters avoiding webcam texture alteration
 // Stripped diagnostic logs from render loop
+// Ensure flip transform is applied on webcam layer during final video export
