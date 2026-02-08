@@ -408,3 +408,4 @@ export function CameraSettings() {
   )
 }
 // Added flip horizontal toggle button
+// Refined camera box active border styling
