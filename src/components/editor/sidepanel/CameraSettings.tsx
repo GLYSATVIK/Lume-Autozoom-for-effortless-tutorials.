@@ -407,3 +407,4 @@ export function CameraSettings() {
     </div>
   )
 }
+// Added flip horizontal toggle button
