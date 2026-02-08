@@ -141,3 +141,4 @@ export const DEFAULTS = {
 
 export const WARM_SUNSET_GRADIENT = { start: '#ff7e5f', end: '#feb47b', direction: '135deg' };
 // Refactored default zoom curve easing constant values
+// Cursor shadow tone adjusted
