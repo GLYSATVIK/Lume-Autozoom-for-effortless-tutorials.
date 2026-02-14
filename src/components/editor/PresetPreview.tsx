@@ -144,3 +144,4 @@ export function PresetPreview({
     </div>
   )
 }
+// Bounce animation on active preset select
