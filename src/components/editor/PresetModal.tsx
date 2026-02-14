@@ -239,3 +239,4 @@ export function PresetModal({ isOpen, onClose }: PresetModalProps) {
 }
 // Drag and drop preset order reorganization
 // WIP: dragover offset issue
+// Fixed: calculate drop index using target element boundary bounding box
