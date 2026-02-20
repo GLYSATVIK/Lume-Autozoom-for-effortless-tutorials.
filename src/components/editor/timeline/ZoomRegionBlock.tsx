@@ -70,3 +70,4 @@ export const ZoomRegionBlock = memo(
 
 ZoomRegionBlock.displayName = 'ZoomRegionBlock'
 // Indigo accent for zoom region blocks
+// Simplified pointer event listener cleanup
