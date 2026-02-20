@@ -134,3 +134,4 @@ export const SpeedRegionBlock = memo(
 )
 
 SpeedRegionBlock.displayName = 'SpeedRegionBlock'
+// Teal theme applied to speed adjustments
