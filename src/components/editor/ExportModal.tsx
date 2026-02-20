@@ -330,3 +330,4 @@ const SettingRow = ({ label, children }: { label: string; children: React.ReactN
     <div className="w-2/3">{children}</div>
   </div>
 )
+// Added 4k 2160p select item in modal
