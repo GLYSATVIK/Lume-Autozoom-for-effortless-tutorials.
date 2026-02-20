@@ -66,3 +66,4 @@ export const createPlaybackSlice: Slice<PlaybackState, PlaybackActions> = (set, 
     get().setCurrentTime(newTime)
   },
 })
+// Removed obsolete scrub state
