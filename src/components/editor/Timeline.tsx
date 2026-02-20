@@ -285,3 +285,4 @@ export function Timeline({ videoRef }: { videoRef: React.RefObject<HTMLVideoElem
 // Support Shift-click multiple region selection
 // WIP: clear multi-select on timeline background click
 // Fixed: proper selection clearing without breaking drag starts
+// React.memo optimization for region items
