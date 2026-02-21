@@ -193,3 +193,4 @@ export function SidePanel() {
 // Tab registered: filter settings panel
 // Added icons.Sliders to filter tab
 // Smooth fade transition between side tabs
+// Tab views modularization
