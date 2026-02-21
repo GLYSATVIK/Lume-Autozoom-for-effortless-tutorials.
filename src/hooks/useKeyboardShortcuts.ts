@@ -51,3 +51,4 @@ export function useKeyboardShortcuts(shortcuts: ShortcutMap, deps: React.Depende
 }
 // Added Ctrl+Z undo handler for region deletion
 // Added Ctrl+D keybind to clone selected timeline region
+// Suppress shortcut triggers when active element is INPUT or TEXTAREA
