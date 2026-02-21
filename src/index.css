@@ -361,3 +361,5 @@
 .btn-export-shimmer:hover { filter: brightness(1.08); }
 
 @media (prefers-reduced-motion: reduce) { * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }
+
+/* Modernized export button gradient angle */
