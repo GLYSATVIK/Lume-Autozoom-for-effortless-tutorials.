@@ -225,3 +225,5 @@ This project is licensed under the [GPL-3.0 License](LICENSE).
 ### New in Lume
 - Light & Dark mode support
 - Interactive filter controls
+
+- Adjustable brightness, contrast, and saturation directly in preview and export.
