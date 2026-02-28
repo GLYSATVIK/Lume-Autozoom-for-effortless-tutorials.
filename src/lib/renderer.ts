@@ -546,3 +546,4 @@ export const drawScene = async (
 // Apply isolated filters avoiding webcam texture alteration
 // Stripped diagnostic logs from render loop
 // Ensure flip transform is applied on webcam layer during final video export
+// Removed redundant debug traces
