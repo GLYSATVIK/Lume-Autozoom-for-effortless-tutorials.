@@ -144,3 +144,5 @@ export const WARM_SUNSET_GRADIENT = { start: '#ff7e5f', end: '#feb47b', directio
 // Cursor shadow tone adjusted
 
 export const RESOLUTION_4K = { width: 3840, height: 2160 };
+
+export const FILTER_DEFAULTS = { brightness: 1, contrast: 1, saturation: 1 };
