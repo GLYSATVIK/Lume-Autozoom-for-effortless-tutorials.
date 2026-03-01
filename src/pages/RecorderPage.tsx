@@ -457,3 +457,4 @@ const SourceButton = ({
     {icon}
   </button>
 )
+// Updated header typography and hero spacing
