@@ -74,3 +74,4 @@ ZoomRegionBlock.displayName = 'ZoomRegionBlock'
 // Visual dot indicator on selected region corners
 // Render zoom multiplier text (e.g. 1.5x) inside block
 // Hide zoom level label if width < 40px
+// Crisp typography styling for label
