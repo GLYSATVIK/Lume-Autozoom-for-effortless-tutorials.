@@ -459,3 +459,4 @@ const SourceButton = ({
 )
 // Updated header typography and hero spacing
 // 3-second recording countdown timer overlay
+// Reset countdown active state flag before trigger
