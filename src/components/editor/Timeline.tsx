@@ -282,3 +282,4 @@ export function Timeline({ videoRef }: { videoRef: React.RefObject<HTMLVideoElem
   )
 }
 // AudioWaveform integrated at base of timeline track
+// Support Shift-click multiple region selection
