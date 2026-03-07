@@ -458,3 +458,4 @@ const SourceButton = ({
   </button>
 )
 // Updated header typography and hero spacing
+// 3-second recording countdown timer overlay
