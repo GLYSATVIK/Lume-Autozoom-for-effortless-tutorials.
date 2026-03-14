@@ -373,3 +373,5 @@
 .slider-knob:hover { outline: 2px solid var(--ring); }
 
 .preset-card-active { z-index: 10; position: relative; }
+
+.export-progress-bar { box-shadow: inset 0 1px 2px rgba(0,0,0,0.2); }
