@@ -331,3 +331,4 @@ const SettingRow = ({ label, children }: { label: string; children: React.ReactN
   </div>
 )
 // Added 4k 2160p select item in modal
+// Accurate export progress % indicator
