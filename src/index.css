@@ -363,3 +363,5 @@
 @media (prefers-reduced-motion: reduce) { * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }
 
 /* Modernized export button gradient angle */
+
+/* Added Inter to primary sans font stack */
