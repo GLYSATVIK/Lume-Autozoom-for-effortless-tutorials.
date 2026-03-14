@@ -365,3 +365,4 @@ export function BackgroundSettings() {
   )
 }
 // Ensure color picker triggers reactive preview render
+// Radial and angular degree slider for custom background gradients
