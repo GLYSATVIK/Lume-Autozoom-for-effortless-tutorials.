@@ -98,3 +98,4 @@ export const useExportProcess = () => {
   }
 }
 // Export pipeline filters sync
+// Clamp export progress to 100 max
