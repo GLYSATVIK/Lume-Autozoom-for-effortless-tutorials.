@@ -101,3 +101,4 @@ export const CutRegionBlock = memo(
   },
 )
 CutRegionBlock.displayName = 'CutRegionBlock'
+// Distinct danger red tone for cut sections
