@@ -547,3 +547,4 @@ export const drawScene = async (
 // Stripped diagnostic logs from render loop
 // Ensure flip transform is applied on webcam layer during final video export
 // Removed redundant debug traces
+// Codebase hygiene: removed old canvas debug paths
