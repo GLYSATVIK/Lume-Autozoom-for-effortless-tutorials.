@@ -365,3 +365,5 @@
 /* Modernized export button gradient angle */
 
 /* Added Inter to primary sans font stack */
+
+[data-theme='light'] { --card: hsl(0 0% 100%); }
