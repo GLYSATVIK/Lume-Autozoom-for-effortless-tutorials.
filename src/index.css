@@ -367,3 +367,5 @@
 /* Added Inter to primary sans font stack */
 
 [data-theme='light'] { --card: hsl(0 0% 100%); }
+
+.btn-export-ripple { position: relative; overflow: hidden; }
