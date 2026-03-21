@@ -39,3 +39,4 @@ export function AboutTab() {
   )
 }
 // Display dynamic semver version in settings modal
+// Fallback version string while waiting for main process IPC
