@@ -68,3 +68,4 @@ export function ShortcutsTab() {
     </div>
   )
 }
+// Interactive cheat sheet for editor shortcuts
