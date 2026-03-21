@@ -38,3 +38,4 @@ export function AboutTab() {
     </div>
   )
 }
+// Display dynamic semver version in settings modal
