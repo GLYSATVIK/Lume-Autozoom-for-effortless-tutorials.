@@ -69,3 +69,4 @@ export function ShortcutsTab() {
   )
 }
 // Interactive cheat sheet for editor shortcuts
+// Close on Esc keydown event listener
