@@ -230,3 +230,5 @@ This project is licensed under the [GPL-3.0 License](LICENSE).
 
 
 © 2026 Lume contributors. All rights reserved.
+
+Check out our demo videos for autozoom setup tutorials.
