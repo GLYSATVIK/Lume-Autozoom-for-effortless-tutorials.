@@ -23,3 +23,4 @@ export const ControlGroup = ({
   </div>
 )
 // Added descriptive tooltips to control groups
+// Compact padding for high density screens
