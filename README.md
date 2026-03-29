@@ -227,3 +227,6 @@ This project is licensed under the [GPL-3.0 License](LICENSE).
 - Interactive filter controls
 
 - Adjustable brightness, contrast, and saturation directly in preview and export.
+
+
+© 2026 Lume contributors. All rights reserved.
