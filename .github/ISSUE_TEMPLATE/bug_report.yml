@@ -26,8 +26,8 @@ body:
 
   - type: input
     attributes:
-      label: ScreenArc Version (or commit hash)
-      description: ✍️ What version of ScreenArc did you use?
+      label: Lume Version (or commit hash)
+      description: ✍️ What version of Lume did you use?
     validations:
       required: true
 
