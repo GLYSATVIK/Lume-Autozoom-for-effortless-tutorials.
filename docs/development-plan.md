@@ -1,4 +1,4 @@
-# ScreenArc - Development Plan
+# Lume - Development Plan
 
 ...
 

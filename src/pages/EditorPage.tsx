@@ -244,7 +244,7 @@ export function EditorPage() {
 
         {/* Centered Title */}
         <h1 className="text-sm font-bold text-foreground pointer-events-none tracking-tight absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-          ScreenArc
+          lume
         </h1>
 
         {/* Right side controls (for non-Windows) */}

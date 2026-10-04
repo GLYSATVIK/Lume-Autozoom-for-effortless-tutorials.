@@ -1,6 +1,6 @@
-# ScreenArc - Technology Stack
+# Lume - Technology Stack
 
-This document outlines the primary technologies chosen for the development of ScreenArc. The stack is selected to facilitate rapid development, ensure cross-platform compatibility, and leverage the modern JavaScript/TypeScript ecosystem.
+This document outlines the primary technologies chosen for the development of lume. The stack is selected to facilitate rapid development, ensure cross-platform compatibility, and leverage the modern JavaScript/TypeScript ecosystem.
 
 ## Core Framework
 

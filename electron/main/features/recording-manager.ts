@@ -84,9 +84,9 @@ async function startActualRecording(
   hasMic: boolean,
   recordingGeometry: RecordingGeometry,
 ) {
-  const recordingDir = path.join(process.env.HOME || process.env.USERPROFILE || '.', '.screenarc')
+  const recordingDir = path.join(process.env.HOME || process.env.USERPROFILE || '.', '.lume')
   await ensureDirectoryExists(recordingDir)
-  const baseName = `ScreenArc-recording-${Date.now()}`
+  const baseName = `Lume-recording-${Date.now()}`
 
   const screenVideoPath = path.join(recordingDir, `${baseName}-screen.mp4`)
   const webcamVideoPath = hasWebcam ? path.join(recordingDir, `${baseName}-webcam.mp4`) : undefined
@@ -220,7 +220,7 @@ function buildFfmpegArgs(
  * Creates the system tray icon and context menu for controlling an active recording.
  */
 function createTray() {
-  const icon = nativeImage.createFromPath(path.join(VITE_PUBLIC, 'screenarc-appicon-tray.png'))
+  const icon = nativeImage.createFromPath(path.join(VITE_PUBLIC, 'lume-appicon-tray.png'))
   appState.tray = new Tray(icon)
   const contextMenu = Menu.buildFromTemplate([
     {
@@ -236,7 +236,7 @@ function createTray() {
       },
     },
   ])
-  appState.tray.setToolTip('ScreenArc is recording...')
+  appState.tray.setToolTip('Lume is recording...')
   appState.tray.setContextMenu(contextMenu)
 }
 
@@ -605,7 +605,7 @@ export async function cleanupAndDiscard() {
  */
 export async function cleanupOrphanedRecordings() {
   log.info('[Cleanup] Starting orphaned recording cleanup...')
-  const recordingDir = path.join(process.env.HOME || process.env.USERPROFILE || '.', '.screenarc')
+  const recordingDir = path.join(process.env.HOME || process.env.USERPROFILE || '.', '.lume')
   const protectedFiles = new Set<string>()
 
   // Protect files from the currently active editor or recording session
@@ -618,7 +618,7 @@ export async function cleanupOrphanedRecordings() {
 
   try {
     const allFiles = await fsPromises.readdir(recordingDir)
-    const filePattern = /^ScreenArc-recording-\d+(-screen\.mp4|-webcam\.mp4|\.json)$/
+    const filePattern = /^Lume-recording-\d+(-screen\.mp4|-webcam\.mp4|\.json)$/
     const filesToDelete = allFiles
       .filter((file) => filePattern.test(file))
       .map((file) => path.join(recordingDir, file))
@@ -685,9 +685,9 @@ export async function loadVideoFromFile() {
   createSavingWindow()
 
   try {
-    const recordingDir = path.join(process.env.HOME || process.env.USERPROFILE || '.', '.screenarc')
+    const recordingDir = path.join(process.env.HOME || process.env.USERPROFILE || '.', '.lume')
     await ensureDirectoryExists(recordingDir)
-    const baseName = `ScreenArc-recording-${Date.now()}`
+    const baseName = `Lume-recording-${Date.now()}`
     const screenVideoPath = path.join(recordingDir, `${baseName}-screen.mp4`)
     const metadataPath = path.join(recordingDir, `${baseName}.json`)
 

@@ -1,7 +1,7 @@
 {
   "name": "lume",
   "description": "Screen recording and editing app",
-  "author": "Tam Nguyen",
+  "author": "GLYSATVIK",
   "private": true,
   "version": "0.0.0-development",
   "type": "module",
@@ -81,16 +81,16 @@
     "vite-plugin-node-polyfills": "^0.24.0"
   },
   "optionalDependencies": {
-    "global-mouse-events": "github:tamnguyenvan/global-mouse-events",
-    "iohook-macos": "github:tamnguyenvan/iohook-macos",
-    "node-macos-cursor": "github:tamnguyenvan/node-macos-cursor",
-    "node-win-cursor": "github:tamnguyenvan/node-win-cursor",
-    "x11": "github:tamnguyenvan/node-x11"
+    "global-mouse-events": "github:GLYSATVIK/global-mouse-events",
+    "iohook-macos": "github:GLYSATVIK/iohook-macos",
+    "node-macos-cursor": "github:GLYSATVIK/node-macos-cursor",
+    "node-win-cursor": "github:GLYSATVIK/node-win-cursor",
+    "x11": "github:GLYSATVIK/node-x11"
   },
   "main": "dist-electron/index.cjs",
   "build": {
-    "appId": "com.screenarc.app",
-    "productName": "ScreenArc",
+    "appId": "com.lume.app",
+    "productName": "Lume",
     "files": [
       "dist/**/*",
       "dist-electron/**/*",
@@ -111,7 +111,7 @@
       "target": [
         "nsis"
       ],
-      "icon": "build/screenarc-appicon.ico",
+      "icon": "build/lume-appicon.ico",
       "artifactName": "${productName} Setup ${version}.${ext}"
     },
     "mac": {
@@ -136,7 +136,7 @@
           ]
         }
       ],
-      "icon": "build/screenarc-appicon.icns"
+      "icon": "build/lume-appicon.icns"
     },
     "dmg": {
       "sign": "false",
@@ -160,11 +160,11 @@
         "rpm",
         "zip"
       ],
-      "maintainer": "Tam Nguyen tamnvhustcc@gmail.com",
-      "icon": "build/screenarc-appicon.png",
+      "maintainer": "GLYSATVIK tamnvhustcc@gmail.com",
+      "icon": "build/lume-appicon.png",
       "category": "Utility;AudioVideo;Recorder",
       "synopsis": "Screen recording and editing app",
-      "artifactName": "ScreenArc-${version}-linux-x64.${ext}",
+      "artifactName": "Lume-${version}-linux-x64.${ext}",
       "description": "Free & Open Source Screen Recording and Editing App"
     },
     "nsis": {

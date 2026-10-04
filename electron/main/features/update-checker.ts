@@ -7,8 +7,8 @@ export async function checkForUpdates(window: BrowserWindow | null) {
   if (!window) return
 
   const currentVersion = app.getVersion()
-  const repoOwner = 'tamnguyenvan'
-  const repoName = 'screenarc'
+  const repoOwner = 'GLYSATVIK'
+  const repoName = 'Lume-Autozoom-for-effortless-tutorials.'
   const url = `https://api.github.com/repos/${repoOwner}/${repoName}/releases/latest`
   const maxAttempts = 3
   let currentAttempt = 0

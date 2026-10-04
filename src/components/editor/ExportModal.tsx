@@ -28,7 +28,7 @@ interface ExportModalProps {
 const generateFilename = (format: 'mp4' | 'gif') => {
   const now = new Date()
   const timestamp = now.toISOString().replace(/[:.]/g, '-').replace('T', '-').slice(0, 19)
-  return `ScreenArc-${timestamp}.${format}`
+  return `Lume-${timestamp}.${format}`
 }
 
 // --- Sub-components for different views ---
